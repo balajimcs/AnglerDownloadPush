@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EbookDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textEbookDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="A pioneering India-based Internet-solutions company with offices worldwide. Our unique Full Service Provider (FSP) solutions model brings you the best of the worlds of Offshore Software Development, E-Business Products and Interactive Media."
+        android:textSize="18sp"
+        android:lineSpacingExtra="4dp" />
+    </ScrollView>
+
+
+</FrameLayout>
